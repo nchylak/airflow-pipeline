@@ -42,7 +42,7 @@ This project consists in orchestrating an ETL pipeline using Apache Airflow for:
 
 ## Files description
 
-1. `requirements.txt` lists all packages used in the scripts of this repository.
+1. `requirements.txt` lists all packages used in the scripts of this repository. This project uses **Airflow 2**.
 
 2. `create-aws-resources.ipynb` creates (and deletes) the required resources on AWS (EC2 security group and Redshift cluster) for running the scripts below. Since the data warehouse is created only for learning purposes, we want to keep the cluster running only while we are working on it and delete it when we are done in order not to incur unnecessary costs. 
 
